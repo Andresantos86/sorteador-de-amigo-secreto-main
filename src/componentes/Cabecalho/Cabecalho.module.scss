@@ -6,8 +6,8 @@
   padding-top: 120px;
 }
 
-.imagem-logo {
-  background-image: url("/public/imagens/logo.png");
+.imagemLogo {
+  background-image: url("");
   width: 351px;
   height: 117px;
 }
@@ -23,8 +23,8 @@
       align-items: center;
   }
 
-  .imagem-logo {
-      background-image: url("/public/imagens/logo-pequeno.png");
+  .imagemLogo {
+     // background-image: url('/public/imagens/logoPequeno.png');
       width: 235px;
       height: 199px;
   }
