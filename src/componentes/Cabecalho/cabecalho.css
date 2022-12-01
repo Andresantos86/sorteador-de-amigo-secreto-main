@@ -1,13 +1,12 @@
 
-
 .cabecalho {
   display: flex;
   justify-content: space-around;
   padding-top: 120px;
 }
 
-.imagemLogo {
-  background-image: url("");
+.imagem-logo {
+  background-image: url("/public/imagens/logo.png");
   width: 351px;
   height: 117px;
 }
@@ -23,8 +22,8 @@
       align-items: center;
   }
 
-  .imagemLogo {
-     // background-image: url('/public/imagens/logoPequeno.png');
+  .imagem-logo {
+      background-image: url("/public/imagens/logo-pequeno.png");
       width: 235px;
       height: 199px;
   }
