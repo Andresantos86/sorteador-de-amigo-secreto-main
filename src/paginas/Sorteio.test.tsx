@@ -24,6 +24,6 @@ describe('Na pagina de sorteio',()=>{
     </RecoilRoot>)
 
     const opcoes = screen.queryAllByRole('option')
-    expect(opcoes).toHaveLength(participantes.length)
+    expect(opcoes).toHaveLength(participantes.length + 1)
   })
 })
